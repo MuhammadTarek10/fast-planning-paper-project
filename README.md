@@ -1,6 +1,6 @@
 # Installation
 
-## Create virtualenv and activate id
+## Create virtualenv and activate it
 
 ```
 python3 -m venv venv
