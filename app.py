@@ -83,6 +83,9 @@ class Tester:
         plt.title(
             f"Start: {[round(i, 2) for i in self.pInit]} | End: {[round(i, 2) for i in self.pTerminal]})"
         )
+        plt.savefig(
+            f"assets/images/tests/Start:{[round(i, 2) for i in self.pInit]}_End:{[round(i, 2) for i in self.pTerminal]}.png"
+        )
 
     def run(self):
         self.plan()
