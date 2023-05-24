@@ -1,6 +1,7 @@
-*
-!.gitignore
-!app.py
-!requirements.txt
-!report.pdf
-!README.md
+/venv
+.vscode
+.DS_Store
+test.py
+documentation/
+.ipynb_checkpoints/
+file.txt
